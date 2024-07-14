@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Urbanist', Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: url('image 3.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgb(19, 115, 224);
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    padding: 0;
+}
+
+.nav-list li {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-list li.logo {
+    flex: none;
+    margin: 0 20px;
+}
+
+.nav-list li a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Urbanist', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    position: relative;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.content p.description {
+    font-size: 20px;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.join-us-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
