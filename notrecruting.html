@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currently Not Recruiting</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0 30px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img width="50%" src="./static/assets/aboutLogo.webp" alt="">
+        <h1>Currently Not Recruiting</h1>
+        <p>Sorry! It looks like we're not hiring at the moment.</p>
+        <button onclick="redirectToHome()">Take Me Away</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function redirectToHome() {
+            window.location.href = '/'; // Replace '/' with the desired URL
+        }
+    </script>
+</body>
+
+</html>

@@ -7,8 +7,10 @@ function sideMenuToggle() {
   if (side_menu.classList.contains("side-menu-close")) {
     side_menu.classList.replace("side-menu-close", "side-menu-open");
     aside_item.forEach((ele)=>ele.classList.replace("aside-item-close","aside-item-open"))
+    document.documentElement.style.overflow = 'hidden';
   } else {
     side_menu.classList.replace("side-menu-open", "side-menu-close");
     aside_item.forEach((ele)=>ele.classList.replace("aside-item-open","aside-item-close"))
+    document.documentElement.style.overflow = 'auto';
   }
 }
