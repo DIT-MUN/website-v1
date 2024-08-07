@@ -14,19 +14,20 @@ html,
 body {
   background-image: url("../assets/outeam-team-bg.webp");
   /* background-color: #242423; */
-  background-size: contain;
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
   /* background-position: ; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width: 100%;
+
 }
 main {
   display: grid;
   grid-template-rows: 0.3fr repeat(12, 1fr) 0.7fr;
   grid-template-columns: repeat(4, 25%);
   row-gap: 2%;
-  overflow: hidden;
 }
 .wrapper {
   grid-area: auto/1/auto/-1;
