@@ -23,6 +23,7 @@ body {
   overflow-x: hidden;
 
 }
+
 main {
   display: grid;
   grid-template-rows: 0.3fr repeat(12, 1fr) 0.7fr;
